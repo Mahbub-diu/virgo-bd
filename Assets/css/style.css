@@ -1,0 +1,368 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'euclid_circular_aregular';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    margin: 0;
+    padding: 0;
+}
+.btn:focus,
+.form-control:focus{
+    box-shadow: none;
+    outline: none;
+}
+.fixed-top {
+    top: -40px;
+    transform: translateY(40px);
+    transition: transform .3s;
+}
+/* top header css start from here  */
+
+.Topheader-Main .container{
+    max-width: 1400px;
+}
+.Topheader-Main .top-navbar{
+    background-color: rgb(51, 51, 51);
+    height: auto;
+    margin: 0;padding: 0 !important;
+}
+
+.Topheader-Main .top-navbar .nav-link{
+    color: #fff;font-size: 14px;text-transform: capitalize;font-weight: normal;letter-spacing: 1px;
+}
+.Topheader-Main .top-navbar .nav-link.active{
+    color: #fff;
+}
+.Topheader-Main .top-navbar .nav-link:hover{
+    color: #fff;
+}
+.Topheader-Main .top-navbar .nav-item.dropdown{
+    background: #fff;
+    
+}
+.Topheader-Main .top-navbar .nav-item.dropdown .nav-link{
+    color: rgb(51, 51, 51);
+    
+}
+.Topheader-Main .top-navbar  .nav-link.main-address{
+    text-transform: lowercase;
+}
+
+.Topheader-Main .top-navbar .navbar-text{
+    color: #fff;font-size: 10px;text-transform: capitalize;font-weight: normal;letter-spacing: 1px;
+}
+.Topheader-Main .top-navbar .navbar-text a{
+    color: #fff;font-size: 10px;text-transform: capitalize;font-weight: normal;letter-spacing: 1px;text-decoration: underline;margin-right: 5px;margin-left: 5px;
+}
+
+.middle-nav-main .middle-navbar{
+    background: rgb(27, 11, 1);
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+.middle-nav-main .middle-navbar .container{
+    max-width: 1400px;
+}
+.middle-nav-main .middle-navbar .navbar-text{
+    color: #fff;font-size: 14px;text-transform: capitalize;font-weight: normal;letter-spacing: 1px;padding: 0.5em 0em 0.5em;
+}
+
+
+.middle-nav-main .middle-navbar .navbar-text a{
+    color: #fff;font-size: 14px;text-transform: capitalize;font-weight: normal;letter-spacing: 1px;text-decoration: underline;margin-right: 5px;margin-left: 5px;
+
+}
+
+.middle-nav-main .middle-navbar .navbar-text .extra-offer{
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;letter-spacing: 1px;
+}
+
+/* top header css end here  */
+
+/* home-main banner start from here  */
+.homemain-banner{
+    min-height: calc(58.2385vw);
+    position: relative;
+}
+.homemain-banner .container{
+    max-width: 1400px;
+}
+.homemain-banner .mainbanner-image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;z-index: -1;
+}
+.homemain-banner .mainbanner-image .mainbanner-image-link img{
+    width: 100%;
+    height: 100%;
+}
+.homemain-banner .mainbanner-navbar .navbar{
+    z-index: 1;
+}
+.homemain-banner .mainbanner-navbar .navbar .nav-link{
+    color: #fff;
+   text-transform: uppercase;padding-top: 35px;padding-bottom: 35px;text-align: center;font-family: 'euclid_circular_alight';letter-spacing: 0.4px;
+}
+.homemain-banner .mainbanner-navbar .navbar .nav-item{
+    flex: 1 1 auto; 
+}
+.homemain-banner .mainbanner-navbar .navbar{
+    padding: 0;margin: 0;
+}
+.homemain-banner .mainbanner-navbar .form-control {
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    border-radius: 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;color: #fff;min-width: 270px;
+    padding-left: 0;font-family: 'euclid_circular_alight';
+}
+.homemain-banner .mainbanner-navbar ::placeholder{
+    color: #fff;font-family: 'euclid_circular_alight';
+}
+
+.homemain-banner .mainbanner-navbar .navbar-brand img{
+    height: 40px;
+}
+
+.homemain-banner .mainbanner-navbar .navbar:hover{
+    background: #fff;
+}
+.homemain-banner .mainbanner-navbar .navbar:hover .nav-link,.homemain-banner .mainbanner-navbar .navbar:hover .navbar-text{
+    color: #2a3244;
+}
+
+.im-black{
+    display: none;
+}
+.homemain-banner .mainbanner-navbar .navbar:hover .im-white{
+    display: none;
+}
+.homemain-banner .mainbanner-navbar .navbar:hover .im-black{
+    display: block;
+}
+.homemain-banner .mainbanner-navbar .navbar:hover .form-control{
+    color: #2a3244;border-color: #2a3244;
+}
+
+.homemain-banner .mainbanner-navbar .navbar:hover ::placeholder{
+    color: #2a3244;
+}
+.white-nav{
+    background: #fff;
+}
+
+ 
+.homemain-banner .mainbanner-navbar .white-nav  .nav-link{color: #2a3244;}
+.homemain-banner .mainbanner-navbar .white-nav ::placeholder{
+    color: #2a3244;
+}
+.homemain-banner .mainbanner-navbar .white-nav .form-control{
+    color: #2a3244;
+    border-color: #2a3244;
+}
+.homemain-banner .mainbanner-navbar .white-nav .im-black{
+    display: block;
+}
+.homemain-banner .mainbanner-navbar .white-nav .im-white{
+    display: none;
+}
+.banner-headoing .banner-titlebox{
+    max-width: 35%;
+  
+    margin: auto;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.banner-headoing h1{
+    color: #fff;text-transform: uppercase;  font-family: 'euclid_circular_alight';letter-spacing: 1px;font-size: 65px;text-align: center;line-height: normal;
+}
+
+.banner-headoing .w-newarrival-btn{
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(255, 255, 255);transition: all 250ms ease-in-out 0s;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    border-radius: 0px;    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;font-family: 'euclid_circular_alight';letter-spacing: 1.4px;
+    border-bottom: 2px solid #fff;
+    display: block;width: fit-content;
+    margin: 40px auto;font-weight: 300;
+}
+
+
+/* home banner end here  */
+
+/* video banner css start from here  */
+
+.video-main{
+     height: calc(55.125vw);
+    width: 100%;
+}
+.video-main video{
+     height: calc(55.125vw);
+    width: 100%;
+}
+/* video banner css end here  */
+
+/* single banner css start from here  */
+.single-banner-main{
+    min-height: calc(59.0552vw);position: relative;
+}
+.single-banner-main .container{
+    max-width: 1400px;
+}
+.single-banner-main a.single-ban-link img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.single-banner-main .single-ban-height{
+    min-height: calc(59.0552vw);
+}
+.single-banner-main .single-ban-content{
+     width: 40%;
+     
+    min-height: 100px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 2;color: #fff;
+}
+
+.single-banner-main .single-ban-content h1.legacy-title{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'euclid_circular_alight';
+    letter-spacing: 1px;
+    font-size: 65px;font-weight: 300;
+}
+.single-banner-main .single-ban-content h1.legacy-title span{
+    text-transform: lowercase;font-style: italic;font-weight: 500;
+}
+
+.single-banner-main .single-ban-content .single-ban-desc{
+    margin: 45px 0;
+}
+.single-banner-main .single-ban-content .single-ban-desc h5{
+    font-size: 25px;font-weight: 300;text-transform: unset; font-family: 'euclid_circular_alight';letter-spacing: 1px;line-height: 30px;margin-bottom: 0;
+}
+
+.btn-heritage{
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    transition: all 250ms ease-in-out 0s;
+    box-sizing: border-box;
+   
+    border-radius: 0px;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'euclid_circular_alight';
+    letter-spacing: 1.4px;
+    border-bottom: 2px solid #fff;
+     padding: 0;
+    width: fit-content;
+    margin: 0px 10px;
+    font-weight: 300;
+}
+.btn-heritage:hover{
+    color: #fff;
+}
+
+/* home slider start from here  */
+.home-slider-main{
+    min-height: calc(62.7812vw);
+    background: url(../images/XL.webp);
+    background-size: cover;background-repeat: no-repeat;width: 100%;
+    background-position: center center;margin-bottom: 100px;
+}
+
+.home-slider-main .explore-new-look{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+
+.home-slider-main .container{
+    max-width: 1400px;
+}
+
+.home-slider-main .explore-new-look h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'euclid_circular_alight';
+    letter-spacing: 1px;
+    font-size: 65px;
+    font-weight: 500;text-align: center;
+}
+.home-slider-main .explore-new-look h1 span{
+    text-transform: lowercase;font-style: italic;
+}
+
+
+
+
+
+/* home slider end here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* single banner css end here  */
