@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
     <!-- uclid fonts css  -->
     <link rel="stylesheet" href="Assets/fonts/uclid/uclid-fonts.css">
+    <!-- slick slider css  -->
+    <link rel="stylesheet" href="Assets/css/slick.css">
     <!-- custom style css  -->
     <link rel="stylesheet" href="Assets//css/style.css">
      <!-- responsive style css  -->
@@ -173,6 +175,72 @@
                 <div class="row">
                   <div class="col-12">
                     <h1>explore <span>the</span> new br look</h1>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid px-">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="explore-slider-main">
+                      <div class="explore-slider">
+                        <div class="card">
+                          <div class="card-body">
+                         <a href="">   <img src="Assets/images/slider1.webp" alt=""></a>
+                          </div>
+                          <div class="card-footer">
+                           <h3 class="product-name">womens sweater</h3>
+                            <p class="product-price">price : $120</p>
+                          </div>
+                        </div>
+                        
+                        <div class="card">
+                          <div class="card-body">
+                           <a href=""> <img src="Assets/images/slider2.webp" alt=""></a>
+                          </div>
+                          <div class="card-footer">
+                           <h3 class="product-name">womens sweater</h3>
+                            <p class="product-price">price : $120</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-body">
+                           <a href=""> <img src="Assets/images/slider3.webp" alt=""></a>
+                          </div>
+                          <div class="card-footer">
+                           <h3 class="product-name">womens sweater</h3>
+                            <p class="product-price">price : $120</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-body">
+                            <img src="Assets/images/slider4.webp" alt="">
+                          </div>
+                          <div class="card-footer">
+                           <h3 class="product-name">womens sweater</h3>
+                            <p class="product-price">price : $120</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-body">
+                            <img src="Assets/images/slider5.webp" alt="">
+                          </div>
+                          <div class="card-footer">
+                           <h3 class="product-name">womens sweater</h3>
+                            <p class="product-price">price : $120</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-body">
+                            <img src="Assets/images/slider1.webp" alt="">
+                          </div>
+                          <div class="card-footer">
+                           <h3 class="product-name">womens sweater</h3>
+                            <p class="product-price">price : $120</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -180,49 +248,44 @@
         </section>
    </section>
 
+   
     <!-- Optional JavaScript; choose one of the two! -->
 
    <script src="Assets/js/bootstrap.min.js" type="text/javascript"></script>
-   <script src="Assets/js/custom.js"></script>
-   <script type="text/javascript">
-    document.addEventListener("DOMContentLoaded", function(){
-      
-      window.addEventListener('scroll', function() {
-           
-        if (window.scrollY > 200) {
-          document.getElementById('navbar_top').classList.add('fixed-top');
-      
-          // add padding top to show content behind navbar
-          navbar_height = document.querySelector('.navbar').offsetHeight;
-          document.body.style.paddingTop = navbar_height + 'px';
-        } else {
-           document.getElementById('navbar_top').classList.remove('fixed-top');
-           // remove padding top from body
-          document.body.style.paddingTop = '0';
-        } 
-      });
-    }); 
-    // DOMContentLoaded  end
-  </script>
-    <script type="text/javascript">
-      document.addEventListener("DOMContentLoaded", function(){
-        
-        window.addEventListener('scroll', function() {
-             
-          if (window.scrollY > 200) {
-            document.getElementById('final-navbar').classList.add('white-nav');
-        
-            // add padding top to show content behind navbar
-            navbar_height = document.querySelector('.navbar').offsetHeight;
-            document.body.style.paddingTop = navbar_height + 'px';
-          } else {
-             document.getElementById('final-navbar').classList.remove('white-nav');
-             // remove padding top from body
-            document.body.style.paddingTop = '0';
-          } 
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="Assets/js/slick.min.js" type=""></script>
+
+   <script src="Assets/js/custom.js" type="text/javascript"></script>
+   
+     <script>
+       $('.explore-slider').slick({
+          centerMode: true,
+          centerPadding: '0px',
+          slidesToShow: 4,
+          arrows: true,
+          prevArrow: '<span class="arrow_Prev"><i class="fas fa-angle-left"></i></span> ',
+          nextArrow: '<span class="arrow_Next"><i class="fas fa-angle-right"></i></span>',
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                // centerPadding: '40px',
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                // centerPadding: '40px',
+                slidesToShow: 1
+              }
+            }
+          ]
         });
-      }); 
-      // DOMContentLoaded  end
-    </script>
+     </script>
   </body>
 </html>

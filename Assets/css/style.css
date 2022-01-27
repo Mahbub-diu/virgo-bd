@@ -275,9 +275,9 @@ img{
 .single-banner-main .single-ban-content h1.legacy-title{
     color: #fff;
     text-transform: uppercase;
-    font-family: 'euclid_circular_alight';
+    font-family: 'euclid_circular_aregular';
     letter-spacing: 1px;
-    font-size: 65px;font-weight: 300;
+    font-size: 65px;font-weight: 600;
 }
 .single-banner-main .single-ban-content h1.legacy-title span{
     text-transform: lowercase;font-style: italic;font-weight: 500;
@@ -316,7 +316,7 @@ img{
 
 /* home slider start from here  */
 .home-slider-main{
-    min-height: calc(62.7812vw);
+    /* min-height: calc(62.7812vw); */
     background: url(../images/XL.webp);
     background-size: cover;background-repeat: no-repeat;width: 100%;
     background-position: center center;margin-bottom: 100px;
@@ -335,19 +335,73 @@ img{
 .home-slider-main .explore-new-look h1{
     color: #fff;
     text-transform: uppercase;
-    font-family: 'euclid_circular_alight';
+    font-family: 'euclid_circular_aregular';
     letter-spacing: 1px;
     font-size: 65px;
-    font-weight: 500;text-align: center;
+    font-weight: 600;text-align: center;
 }
 .home-slider-main .explore-new-look h1 span{
     text-transform: lowercase;font-style: italic;
 }
 
+ .arrow_Next i{
+     color: #fff;
+ }
+.arrow_Prev i{
+    color: #fff;
+}
+.explore-slider{
+    position: relative;
+}
+/* .explore-slider .arrow_Prev,
+.explore-slider .arrow_Next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    opacity: 0.3;
+    transition: all 0.3s;
+    width: 30px;
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+} */
 
+.explore-slider .slick-slide img {
+     
+    width: 100%;
+}
 
+.explore-slider .card{
+    margin: 0px 10px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border: none;background: transparent;
+}
 
+.explore-slider .card .card-body{
+    padding: 0;
+    border: 1px solid #ccc;
+}
+.explore-slider .card  .card-footer{
+    text-align: center;color: #fff;
+}
 
+.explore-slider .card  .card-footer h3.product-name{
+    text-transform: capitalize;font-size: 20px;font-weight: 600;letter-spacing: 1px;font-family: 'euclid_circular_aregular';
+}
+.explore-slider .card  .card-footer p.product-price{
+    text-transform: capitalize;font-size: 17px;font-weight: 600;letter-spacing: 1px;    font-family: 'euclid_circular_alight';
+}
 /* home slider end here  */
 
 
