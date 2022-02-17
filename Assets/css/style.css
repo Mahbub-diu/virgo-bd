@@ -124,7 +124,7 @@ img{
 }
 .homemain-banner .mainbanner-navbar .navbar .nav-link{
     color: #fff;
-   text-transform: uppercase;padding-top: 35px;padding-bottom: 35px;text-align: center;font-family: 'euclid_circular_alight';letter-spacing: 0.4px;
+   text-transform: uppercase;padding-top: 25px;padding-bottom: 25px;text-align: center;font-family: 'euclid_circular_alight';letter-spacing: 0.4px;
 }
 .homemain-banner .mainbanner-navbar .navbar .nav-item{
     flex: 1 1 auto; 
@@ -319,7 +319,7 @@ img{
     /* min-height: calc(62.7812vw); */
     background: url(../images/XL.webp);
     background-size: cover;background-repeat: no-repeat;width: 100%;
-    background-position: center center;margin-bottom: 100px;
+    background-position: center center;
 }
 
 .home-slider-main .explore-new-look{
@@ -405,18 +405,532 @@ img{
 /* home slider end here  */
 
 
+.maxsize-banner{
+    min-height: calc(59.0042vw);
+    position: relative;
+    position: relative;
+}
+.maxsize-banner .maxbanner-position{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    
+}
 
 
+.maxsize-banner .maxbanner-position img{
+    width: 100%;
+    height: 100%;
+}
+
+.maxsize-banner .content-box{
+     
+    height: 100px;
+    width: 30%;
+    position: absolute;
+    right: 250px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+h1.teritory-title{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'euclid_circular_aregular';
+    letter-spacing: 1px;
+    font-size: 60px;
+    font-weight: 600;text-align: center;
+}
 
 
+.maxsize-banner .content-box h1.teritory-title span{
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 500;
+}
+.maxsize-banner .content-box .single-ban-desc{
+    margin: 45px 0;
+}
 
-
-
-
-
-
-
-
+.maxsize-banner .content-box .single-ban-desc h5{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'euclid_circular_alight';
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 0;
+    color: #fff;text-align: center;
+}
 
 
 /* single banner css end here  */
+
+/*fade slider start from here*/
+
+.fade-slider-main{
+    position: relative;
+  
+}
+.fade-slider .slideer{
+
+    background: red;
+}
+.fade-slider .slideer img{
+    width: 100%;
+    height: 100%;
+}
+.fade-slider .slideer .content-box{
+    position: absolute;
+    right: 250px;
+    top: 50%;
+    width: 40%;
+    transform: translateY(-50%);text-align: center;
+}
+.fade-slider .slideer .content-box h5{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: euclid_circular_alight;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.fade-slider .slideer .content-box .single-ban-desc{
+    margin: 45px 0;
+}
+.fade-slider .slideer .content-box .btn-sets-all{
+    text-align: center;
+}
+.fade-slider .slideer .content-box .btn-sets-all  .btn{
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.fade-slider .slideer .content-box h1.teritory-title span{
+    font-style: italic;
+}
+.fade-slider .slideer .content-box h1.teritory-title{
+    font-weight: 500;font-size: 60px;
+}
+
+
+/*fade slider end here*/
+
+
+/* gift card section start from here  */
+.giftcard-main{
+    min-height: calc(14.2917vw);
+    position: relative;
+    
+    background: url(/Assets/images/gift.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 50px 0px;
+    text-align: center;
+}
+.giftcard-main h2.gift-title{
+    font-size: 90px;text-transform: uppercase;font-weight: 600;text-align: center;
+}
+
+.giftcard-main h5.redeem{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.giftcard-main .btn-heritage{
+    text-align: center;color: #000;
+    border-bottom-color: #000;
+    margin: 30px auto;
+    font-weight: 600;
+    margin-bottom: 0;text-transform: uppercase;
+}
+.imagin-banner{
+    min-height: calc(58.0344vw);
+    background: url(../images/imagin.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.imagin-banner .content-box{
+    position: absolute;
+    right: 250px;
+    top: 100px;
+    width: 35%;
+    height: calc(100% - 200px);
+    text-align: center;
+
+}
+ 
+
+
+.imagin-banner .content-box h2.imagin-title{
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'euclid_circular_aregular';
+    letter-spacing: 1px;
+    font-size: 65px;
+ 
+    margin-bottom: 30px;
+}
+.imagin-banner .content-box .imagin-desc{
+    text-align: center;
+}
+.imagin-banner .content-box .imagin-desc h5{
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(65 62 61);
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+/* gift card section end here  */
+
+/* community section start from here  */
+.commuinity-main{
+    min-height: 400px;text-align: center;
+    padding: 50px 0px;
+}
+
+.commuinity-main h2.commuinity-title{
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'euclid_circular_aregular';
+    letter-spacing: 1px;
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+.commuinity-main .card{
+    max-height: 362px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    cursor: url(/Assets/images/cursor.png) 20 20,pointer;transition: all 0.25s ease;
+}
+
+.commuinity-main .card .card-body{
+    padding: 0;
+}
+
+
+.commuinity-main .card .communinity-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000009c;
+    display: none;
+    
+}
+.commuinity-main .card:hover .communinity-overlay{
+    display: block;
+    -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.commuinity-main .card .communinity-overlay h4{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+
+ @-webkit-keyframes slide-fwd-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+              transform: translateZ(160px);
+    }
+  }
+  @keyframes slide-fwd-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+              transform: translateZ(160px);
+    }
+  }
+  
+ @-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  .blog-main {
+      margin-bottom: 50px;
+  }
+
+.blog-main .blog-bg {
+    /* min-height: calc(35.8823vw); */
+    padding: 80px;text-align: center;
+
+     
+}
+
+.blog-main .blog-bg.bg-img{
+    background: url(/Assets/images/bg-img.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.blog-main .blog-bg.bg-dark{
+    color: #fff;
+}
+
+.blog-main .blog-bg.bg-warning{
+    color: #000;
+}
+
+
+.blog-main .blog-bg h2{
+    text-transform: uppercase;text-align: center;font-size: 50px;font-weight: 700;line-height: 70px;margin-bottom: 50px;
+}
+
+
+.blog-main .blog-bg h2 span{
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+
+.blog-main .blog-bg p{
+    font-size: 25px;text-transform: capitalize;text-align: center;margin-bottom: 50px;
+}
+
+
+.blog-main .blog-bg .see-more-blog{
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.blog-main .blog-bg.bg-dark .see-more-blog,
+.blog-main .blog-bg.bg-img .see-more-blog
+{
+    border-color: #fff;
+    color: #fff;
+}
+.keeptouch-main{
+    margin-bottom: 50px;
+}
+
+.keeptouch-main h2{
+    text-transform: uppercase;text-align: left;font-size: 40px;font-weight: 500;margin-bottom: 30px;
+}
+.keeptouch-main h2 span{
+    text-transform: lowercase;
+    font-style: italic;margin-right: 5px;
+}
+.keeptouch-main .form-control{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 30px;
+    padding-left: 0;
+}
+
+.keeptouch-main .btn-primary{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: none;
+    color: #000;
+    border: 2px solid #000;
+    letter-spacing: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.keeptouch-main .form{
+    margin-bottom: 30px;
+}
+.keeptouch-main p{
+    font-size: 13px;
+}
+.keeptouch-navs {
+    padding:  40px;
+}
+
+.keeptouch-navs .nav-link {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.keeptouch-navs .nav-link i{
+    font-size: 35px;padding-right: 10px;
+}
+
+.keeptouch-navs .nav-item{
+    margin-bottom: 15px;
+}
+
+
+/* community section end here  */
+
+
+/* support section start from here  */
+
+
+.support-main{
+    padding: 50px 0px;
+  
+    background-color: #F7F7F8;
+}
+
+
+
+.support-box .nav-link{
+    font-size: 12px;
+    padding: 0px;
+    color: #666;
+    font-weight: normal;text-transform: capitalize;
+}
+
+.support-box .nav-item{
+    font-size: 12px;
+    line-height: 12px;
+    padding: 4px;
+}
+
+
+.support-box h5{
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 2px;font-size: 12px;    padding: 12px 0 1rem 0px;text-transform: uppercase;margin-bottom: 0;
+}
+
+/* support section end here  */
+
+
+
+
+/* footer part start from here  */
+
+.footer{
+    background-color: #F1F0F0;
+    padding: 55px 0;
+}
+
+.footer h5{
+    text-align: center;text-transform: capitalize;    margin-bottom: 1rem;
+
+}
+
+.footer h5 a{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #666;
+}
+.footer .nav-link{
+    color: #666;
+    font-size: 0.75rem;
+     
+    border-right:1px solid #666 ;
+    padding-top: 2px;padding-bottom: 2px;
+    margin-bottom: 15px;
+ 
+}
+/* footer part end here  */
+
+/* copyright section start from here  */
+.copyright-main{
+    border-top: 1px solid #fafafa; background-color: #F1F0F0;
+    padding: 5px 0px;
+}
+.copyright-main {
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 12px;text-transform: capitalize;
+}
+/* copyright section end here  */
