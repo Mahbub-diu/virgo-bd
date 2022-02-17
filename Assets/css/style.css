@@ -532,7 +532,7 @@ h1.teritory-title{
     min-height: calc(14.2917vw);
     position: relative;
     
-    background: url(/Assets/images/gift.webp);
+    background: url(assets/images/gift.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -624,7 +624,7 @@ h1.teritory-title{
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
-    cursor: url(/Assets/images/cursor.png) 20 20,pointer;transition: all 0.25s ease;
+    cursor: url(assets/images/cursor.png) 20 20,pointer;transition: all 0.25s ease;
 }
 
 .commuinity-main .card .card-body{
@@ -727,7 +727,7 @@ h1.teritory-title{
 }
 
 .blog-main .blog-bg.bg-img{
-    background: url(/Assets/images/bg-img.webp);
+    background: url(../images/bg-img.webp);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
